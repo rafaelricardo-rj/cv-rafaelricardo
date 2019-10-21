@@ -1,1 +1,55 @@
-body{ margin: 0px; }
+/*body{ margin: 0px; }
+*/
+#background-body{
+    background: url('../img/45.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#left-side-collumn-background{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#right-side-collumn-background{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#content-name{
+    height: 100%;
+    position: relative;
+}
+
+#content-name #header-name {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-weight: bold;
+  }
+
+  /*   teste   */
+  .intro-2 {
+    background: url("../img/45.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
