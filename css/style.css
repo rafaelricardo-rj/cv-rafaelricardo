@@ -5,8 +5,13 @@
     background-size: cover;
 }
 
-#left-side-collumn-background{
+.white-background-transparent{
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.white-background-transparent #logos-development-tools li {
+    display:inline-block;
+    margin: 5px;
 }
 
 #right-side-collumn-background{
@@ -42,6 +47,8 @@
     background-color: #4285F4;
 }
 
+
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #4285F4;
@@ -52,4 +59,12 @@ body,
 header,
 .view {
     height: 100%;
+}
+
+body{
+    background-color: #CDCDCD;
+}
+
+.card-data-height{
+    height: 300px;
 }
