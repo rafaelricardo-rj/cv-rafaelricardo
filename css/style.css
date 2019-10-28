@@ -1,8 +1,21 @@
 /*body{ margin: 0px; }
 */
-#background-body{
-    background: url('../img/45.jpg') no-repeat center center;
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+body{
+    /* background-color: #CDCDCD; */
+    background: url("../img/Ridge-Design-Website-Design-Background.jpg")no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+ul li {
+    list-style-type: none;
 }
 
 .white-background-transparent{
@@ -33,12 +46,6 @@
     font-weight: bold;
   }
 
-  /*   teste   */
-  .intro-2 {
-    background: url("../img/45.jpg")no-repeat center center;
-    background-size: cover;
-}
-
 .navbar {
     background-color: transparent;
 }
@@ -53,16 +60,6 @@
     .navbar {
         background-color: #4285F4;
     }
-}
-html,
-body,
-header,
-.view {
-    height: 100%;
-}
-
-body{
-    background-color: #CDCDCD;
 }
 
 .card-data-height{
