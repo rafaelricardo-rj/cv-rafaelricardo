@@ -2,7 +2,6 @@
 */
 html,
 body,
-header,
 .view {
     height: 100%;
 }
@@ -20,6 +19,7 @@ ul li {
 
 .white-background-transparent{
     background-color: rgba(255, 255, 255, 0.5);
+    min-height: 100%;
 }
 
 .white-background-transparent #logos-development-tools li {
@@ -27,8 +27,16 @@ ul li {
     margin: 5px;
 }
 
-#right-side-collumn-background{
-    background-color: rgba(255, 255, 255, 0.3);
+.footer-transparent {
+    background-color: rgba(255, 255, 255, 0.5);
+    bottom: 0;
+}
+
+#career_page{
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 10px;
+    border-radius: 5px;
+    
 }
 
 #content-name{
@@ -44,11 +52,8 @@ ul li {
     transform: translate(-50%, -50%);
     color: #000000;
     font-weight: bold;
-  }
-
-.navbar {
-    background-color: transparent;
 }
+
 
 .top-nav-collapse {
     background-color: #4285F4;
