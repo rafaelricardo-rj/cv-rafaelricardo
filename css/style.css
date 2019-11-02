@@ -11,10 +11,24 @@ body{
     background: url("../img/Ridge-Design-Website-Design-Background.jpg")no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    /* fonte */
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529; */
 }
 
 ul li {
     list-style-type: none;
+}
+
+.sub-content-font{
+    font-family: -apple-system,BlinkMacSystemFont, "Times New Roman", "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
 }
 
 .white-background-transparent{
@@ -36,7 +50,16 @@ ul li {
     background-color: rgba(255, 255, 255, 0.80);
     padding: 10px;
     border-radius: 5px;
-    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.career_page_class{
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #content-name{
@@ -54,19 +77,39 @@ ul li {
     font-weight: bold;
 }
 
-
-.top-nav-collapse {
-    background-color: #4285F4;
+@media only screen and (max-width: 768px) {
+    
+    .divider-portfolio{
+        display: block
+    }
 }
 
-
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #4285F4;
+@media only screen and (min-width: 768px) {
+    .divider-portfolio{
+        display: none;
     }
 }
 
 .card-data-height{
-    height: 300px;
+    min-height: 327px;
+}
+
+#content-navbar{
+    /* background-color: #4285F4; */
+    width: 100%;
+    text-align: center;
+}
+#content-navbar li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.header-name{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.border-bottom-solid{
+    border-bottom: #000000;
 }
