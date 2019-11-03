@@ -69,13 +69,13 @@ ul li {
 
 @media only screen and (max-width: 768px) {
     
-    .divider-portfolio{
+    .divider-portfolio, .divider-hobbies{
         display: block
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .divider-portfolio{
+    .divider-portfolio, .divider-hobbies{
         display: none;
     }
 }
@@ -98,8 +98,4 @@ ul li {
 .header-name{
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
-}
-
-.border-bottom-solid{
-    border-bottom: #000000;
 }
