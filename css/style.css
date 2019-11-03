@@ -1,12 +1,15 @@
 /*body{ margin: 0px; }
 */
-
+html{
+    height: 100%;
+}
 
 body{
     /* background-color: #CDCDCD; */
     background: url("../img/Ridge-Design-Website-Design-Background.jpg")no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 
 ul li {
