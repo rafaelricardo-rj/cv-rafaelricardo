@@ -9,20 +9,22 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/functions.js"></script>
   <title>Rafael Ricardo</title>
 </head>
 
 <body>
   <div class="container white-background-transparent">
-    <div class="row white-background-transparent">
+    <div class="row white-background-transparent" id="topo">
       <div class="col-md-12">
         <!--Main Navigation-->
-        <header class="" id="">
+        <header>
           <div class="row">
-            <div class="col-12 text-center">
-              <h1 class="header-name mt-3">Rafael Ricardo</h1>
+              <div class="col-12 text-center">
+                <h1 class="header-name mt-3" id="title-topo">Rafael Ricardo</h1>
+                <button type="button" onclick="changeColorPortfolio();" class="btn btn-light btn-sm">Clear topo</button>
+              </div>
             </div>
-          </div>
           <hr>
           <nav class="navbar">
             <div id="content-navbar" style="margin-top: -16px;">
@@ -35,6 +37,11 @@
         </header>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-right">
+          <a href="#" class="text-muted" rel="" onclick="changeBodyBackgroungImage('dark');">Clear Background</a>
+      </div>
+    </div>
     <div class="row sub-content-font">
       <div class="col-md-12 text-left">
         <h3 class="mt-3">Projects Involved</h3>
@@ -43,7 +50,7 @@
     </div>
     <!-- <div class="row sub-content-font"> -->
       <!-- <div class="row" id="career_page"> -->
-        <div class="row career_page_class">
+        <div class="row career_page_class" id="portfolio">
           <div class="col-md-4 text-center">
               <a href="https://webelieve.app/" alt="" target="_blank"><img src="img/portfolio_images/believe_logo_b_believe_ae_600px.png" class="img-thumbnail img-fluid rounded-circle mb-4 mt-4" alt="" width="200"></a>
           </div>
@@ -119,7 +126,7 @@
   <footer class="container footer-transparent">
     <div class="row sub-content-font">
       <div class="col-md-12 text-center mt-5">
-        <p>© Rafael Ricardo 2014-2019</p>
+        <small>© Rafael Ricardo 2014-2019</small>
       </div>
     </div>
   </footer>

@@ -5,11 +5,11 @@ html{
 }
 
 body{
-    /* background-color: #CDCDCD; */
     background: url("../img/Ridge-Design-Website-Design-Background.jpg")no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    background-color: #333333;
 }
 
 ul li {
